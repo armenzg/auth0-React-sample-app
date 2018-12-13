@@ -10,10 +10,13 @@
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
   },
   "dependencies": {
+    "auth0-js": "^9.8.2",
+    "history": "^4.7.2",
     "prop-types": "^15",
     "react": "^16",
     "react-dom": "^16",
-    "react-hot-loader": "^4"
+    "react-hot-loader": "^4",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "^9.0.0-rc.0",
